@@ -1,0 +1,3 @@
+Gruppo;Unit;Nome;R;C;Num.;Programma;IndicePunto;Punto;Data_Ora;RMedia;IMedia;Energia;Tempo;Est;Punti;Ravv;ResistenzaIn;ResistenzaF;ResistenzaMax;ResistenzaMin;IstDiMax;IstDiMin;TDiSalita;IndCresc;TDiDisc;IndiceDecr;DiffResMin-Max;DiffResMax-End;IndSpruz;IstSpruz;NomeFile
+5;1;PAZ50WB1;1;0;1;WP57248;57248;WP57248 (0,7+1,3)Fe+D6;08/01/2015 21:26;277,70;8,56;4227,80;260;0;8149;74;287,30;264,70;288,70;264,90;61;257;11;8164;198;420;90;83;0;0;/home/ros_test/tbl_log_res_1420745212_0.csv
+5;1;PAZ50WB1;1;0;1;WP57248;57248;WP57248 (0,7+1,3)Fe+D6;09/01/2015 02:27;280,10;8,58;4291,50;260;0;9955;90;272,30;267,40;290,70;267,60;89;257;39;2215;170;472;86;80;0;0;/home/ros_test/tbl_log_res_1420763227_1.csv

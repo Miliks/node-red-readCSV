@@ -1,0 +1,54 @@
+{
+	"group": 5,
+	"unit": 1,
+	"name": "PAZ50WB1",
+	"pointInd": 57248,
+    "point":"WP57248(0,7+1,3)Fe+D6",
+    "date":"08/01/2015 21:26"",
+    "message":{
+        "RMedia":277.7,
+        "IMedia":8.56,
+        "Energia":4227.8,
+        "Tempo":260,
+        "punti":8146,
+        "Ravv":74,
+		"ResistenzaIn":287.3,
+        "ResistenzaF":264.7,
+        "ResistenzaMax":288.7,
+        "ResistenzaMin":264.9,
+        "IstDiMax":61,
+        "IstDiMin":257,
+        "TDiSalita": 11,
+        "IndCresc":8164,
+        "TDiDisc":198,
+        "IndDecr":420,
+        "DiffResMinMax":90,
+        "DiffResMaxEnd":83,
+        "IndSpruz":0,
+        "IstSpruz":0,
+		"dettagli":[
+        {
+            "Corrente":"0.717514",
+            "Resistenza":"3987.835693",
+            "Tensione":"2.861328",
+            "Potenza":"2.053043"
+        },
+        {
+            "Corrente":"1.507996",
+            "Resistenza":"31868.296387",
+            "Tensione":"2.817383",
+            "Potenza":"4.248601"
+        },
+		{
+            "Corrente":"2.237671",
+            "Resistenza":"1197.970703",
+            "Tensione":"2.680664",
+            "Potenza":"5.998444"
+        }
+		...another 258 or how many accurence times
+    ]
+		
+    }
+    
+
+}
