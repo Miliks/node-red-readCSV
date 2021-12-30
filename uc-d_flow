@@ -1,0 +1,1088 @@
+[
+    {
+        "id": "3b6c61756b941977",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "90189482ed260836",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "794c8bad7dbe6b15",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "a241f148.085bb8",
+        "type": "kafka-broker",
+        "name": "ENG",
+        "hosts": "3.128.78.175:9992",
+        "selfsign": false,
+        "usetls": false,
+        "cacert": "",
+        "clientcert": "",
+        "privatekey": "",
+        "passphrase": ""
+    },
+    {
+        "id": "ff621fe6.e56fc8",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "6000",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "9f02d648.2ec128",
+        "type": "kafka-broker",
+        "name": "RPLY01",
+        "hosts": "brokerkafka.cloud.reply.eu:9092",
+        "selfsign": false,
+        "usetls": false,
+        "cacert": "",
+        "clientcert": "",
+        "privatekey": "",
+        "passphrase": ""
+    },
+    {
+        "id": "172d4a97.2e792d",
+        "type": "mqtt-broker",
+        "name": "hyve",
+        "broker": "vitalaht.cloud.reply.eu",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "compatmode": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "command",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "8b5cde76.edd58",
+        "type": "ui_group",
+        "name": "Report",
+        "tab": "30bf4544.04a522",
+        "order": 1,
+        "disp": true,
+        "width": "27",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "30bf4544.04a522",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "461ba9e4889df28a",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "ad4879325e2c37cb",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "91.218.224.188",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "e44749f125d5668c",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "373a1cf4.6cf3dc",
+        "type": "file in",
+        "z": "3b6c61756b941977",
+        "name": "",
+        "filename": "/home/ubuntu/icosaf/test1.csv",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 750,
+        "y": 500,
+        "wires": [
+            [
+                "72253941.c7ba6"
+            ]
+        ]
+    },
+    {
+        "id": "72253941.c7ba6",
+        "type": "csv",
+        "z": "3b6c61756b941977",
+        "name": "REad CSV file",
+        "sep": "\\t",
+        "hdrin": true,
+        "hdrout": "none",
+        "multi": "mult",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 980,
+        "y": 500,
+        "wires": [
+            [
+                "e000908.94e5c7"
+            ]
+        ]
+    },
+    {
+        "id": "e000908.94e5c7",
+        "type": "function",
+        "z": "3b6c61756b941977",
+        "name": "create html",
+        "func": "\nlet html = `<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>520 - ${ msg.payload[0].Data }</title>\n    <style>\n        body {\n            font-family: Arial, Helvetica, sans-serif;\n        }\n\n        .content-table {\n            border-collapse: collapse;\n            margin: 25px 0;\n            font-size: 0.9em;\n            min-width: 400px;\n            border-radius: 5px 5px 0 0;\n            overflow: hidden;\n            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);\n        }\n\n        .content-table thead tr {\n            background-color: #009879;\n            color: #ffffff;\n            text-align: left;\n            font-weight: bold;\n            border:1px solid black;\n        }\n\n        .content-table th,\n        .content-table td {\n            padding: 12px 15px;\n             text-align: center; \n        }\n\n        .content-table tbody tr {\n            border-bottom: 1px solid #dddddd;\n             border:1px solid black;\n        }\n\n        .content-table tbody tr:nth-of-type(even) {\n            background-color: #f3f3f3;\n        }\n\n        .content-table tbody tr:last-of-type {\n            border-bottom: 2px solid #009879;\n        }\n\n        .content-table tbody tr.active-row {\n            font-weight: bold;\n            color: #009879;\n        }\n        .success {\n            color: #ff0000;\n        }\n        .error {\n            color: #00ff00;\n        }\n    </style>\n</head>\n\n<body>\n    <h1>Welding Quality data report- ${ msg.payload[0].Data } - 520</h1>\n    \n    <table style=\"width:100%\">\n  \n    <tr>\n        <td>Operatore: </td>\n        <td> Mariano Quagliano</td>\n        <td>Modello: </td>\n        <td>520 </td>\n        \n        <td>Provati: </td>\n       <td>${ msg.payload.length}/60</td> \n    </tr>\n    <tr>\n        <td>Turno: </td>\n        <td> CENTRALE</td>\n        <td>Gruppo: </td>\n        <td>PAZ</td>\n        <td>Progetto:</td>\n        <td>DESTRO </td>\n        \n    </tr>\n    <tr>\n        <td>Data: </td>\n        <td> ${ msg.payload[0].Data }</td>\n        <td>Parte: </td>\n        <td>Puntoncino</td>\n       \n        <td>Buoni: </td>\n       <td>${msg.payload.filter(function(item){if (item[\"Risultato\"]==\"Buono\") return true; else false;}).length}\n       (${((msg.payload.filter(function(item){if (item[\"Risultato\"]==\"Buono\") return true; else false;}).length / msg.payload.length) *100).toFixed(2)}%)</td> \n    </tr>\n    <tr>\n        \n        <td>Scarto: </td>\n        <td>${msg.payload.filter(function(item){if (item[\"Risultato\"]!=\"Buono\") return true; else false;}).length}\n       (${((msg.payload.filter(function(item){if (item[\"Risultato\"]!=\"Buono\") return true; else false;}).length / msg.payload.length) *100).toFixed(2)}%)</td> \n        \n    </tr>\n \n</table>\n\n    <table class=\"content-table\" style=\"width:100%\">\n\n        <thead>\n            <tr>\n              <th>N Punto</th>\n                <th>Descrizione</th>\n                <th>Risultato</th>\n                <th>Categoria</th>\n                <th>Spessore</th>\n                <th>Echi</th>\n                <th>Calo</th>\n                <th>Guadag</th>\n                <th>Sonda</th>\n                <th>File UPR</th>\n                <th>File SWD</th>\n             \n            </tr>\n        </thead>\n\n        <tbody>`\n\nlet rows = \"\"\n\nmsg.payload.forEach(el => {\n    if (el[\"Risultato\"]==\"Buono\"){\n        rows += `\n<tr>\n     <td>${el[\"Punto\"]}</td>\n    <td>${el[\"Descrizione\"]}</td>\n    <td>${el[\"Risultato\"]}</td>\n    <td>${el.Categoria}</td>\n    <td>${el.Spessore}</td>\n    <td>${el.Echi}</td>\n    <td>${el.Calo}</td>\n    <td>${el.Guadagno}</td>\n    <td>${el.Sonda}</td>\n    <td>${el[\"File UPR\"]}</td>\n    <td>${el[\"File SWD\"]}</td>\n   \n</tr>`\n        \n    } else {\n    rows += `\n<tr style=\"color: red\">\n <td>${el[\"Punto\"]}</td>\n     <td>${el[\"Descrizione\"]}</td>\n    <td>${el[\"Risultato\"]}</td>\n    <td>${el.Categoria}</td>\n    <td>${el.Spessore}</td>\n    <td>${el.Echi}</td>\n    <td>${el.Calo}</td>\n    <td>${el.Guadagno}</td>\n    <td>${el.Sonda}</td>\n    <td>${el[\"File UPR\"]}</td>\n    <td>${el[\"File SWD\"]}</td>\n</tr>`\n    }\n        \n})\n\n\nhtml = html + rows + `</tbody>\n    </table>\n</body>\n</html>`\n\nmsg.payload = html\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1150,
+        "y": 500,
+        "wires": [
+            [
+                "1878fa0c.7c9a4e"
+            ]
+        ]
+    },
+    {
+        "id": "1878fa0c.7c9a4e",
+        "type": "file",
+        "z": "3b6c61756b941977",
+        "name": "create HTML report file",
+        "filename": "/home/ubuntu/icosaf/quality_ultrasound_report_partID_1.html",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1340,
+        "y": 500,
+        "wires": [
+            [
+                "9cd3fde3.4aca98"
+            ]
+        ]
+    },
+    {
+        "id": "a00b85cf.e989d8",
+        "type": "kafka-producer",
+        "z": "3b6c61756b941977",
+        "name": "Send_quality_report",
+        "broker": "a241f148.085bb8",
+        "topic": "quality_ultrasound_report",
+        "requireAcks": 1,
+        "ackTimeoutMs": "6000",
+        "attributes": "1",
+        "x": 1670,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "9cd3fde3.4aca98",
+        "type": "base64",
+        "z": "3b6c61756b941977",
+        "name": "Trasform to base64 payload",
+        "action": "str",
+        "property": "payload",
+        "x": 1600,
+        "y": 500,
+        "wires": [
+            [
+                "652d91dc.3162f8"
+            ]
+        ]
+    },
+    {
+        "id": "652d91dc.3162f8",
+        "type": "function",
+        "z": "3b6c61756b941977",
+        "name": "prepare msg to send to Kafka",
+        "func": "var temp = msg.payload;\nvar jsonObj = '{\"partID\":\"1\",\"fileName\":\"quality_ultrasound_report_partID_1.html\",\"fileContentB64\":\"' + temp + '\"}'\nmsg.payload = jsonObj;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1560,
+        "y": 560,
+        "wires": [
+            [
+                "a00b85cf.e989d8"
+            ]
+        ]
+    },
+    {
+        "id": "b07a790e.e411c",
+        "type": "kafka-consumer",
+        "z": "3b6c61756b941977",
+        "name": "Kafka_verify_report",
+        "broker": "a241f148.085bb8",
+        "outOfRangeOffset": "earliest",
+        "fromOffset": "latest",
+        "topic": "quality_ultrasound_report",
+        "groupid": "",
+        "x": 1330,
+        "y": 840,
+        "wires": [
+            [
+                "976aec6e.037de8"
+            ]
+        ]
+    },
+    {
+        "id": "976aec6e.037de8",
+        "type": "debug",
+        "z": "3b6c61756b941977",
+        "name": "kafka quality report",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1570,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "f9f49aa9.918be8",
+        "type": "mqtt in",
+        "z": "3b6c61756b941977",
+        "name": "",
+        "topic": "sensor_data",
+        "qos": "1",
+        "datatype": "utf8",
+        "broker": "ad4879325e2c37cb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 570,
+        "y": 340,
+        "wires": [
+            [
+                "33054789.1037d"
+            ]
+        ]
+    },
+    {
+        "id": "a58a760b.e9624",
+        "type": "kafka-producer",
+        "z": "3b6c61756b941977",
+        "name": "Pub sensor_position",
+        "broker": "a241f148.085bb8",
+        "topic": "sensors_position_result",
+        "requireAcks": "0",
+        "ackTimeoutMs": "6000",
+        "attributes": "1",
+        "x": 1350,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "50117c1e.f1fdec",
+        "type": "kafka-consumer",
+        "z": "3b6c61756b941977",
+        "name": "Kafka_sensor_position",
+        "broker": "a241f148.085bb8",
+        "outOfRangeOffset": "earliest",
+        "fromOffset": "latest",
+        "topic": "sensors_position_result",
+        "groupid": "",
+        "x": 1340,
+        "y": 920,
+        "wires": [
+            [
+                "b3d0ff27.3da9c"
+            ]
+        ]
+    },
+    {
+        "id": "b3d0ff27.3da9c",
+        "type": "debug",
+        "z": "3b6c61756b941977",
+        "name": "kafka sensor position",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1580,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "dd631c82.a768",
+        "type": "mqtt out",
+        "z": "3b6c61756b941977",
+        "name": "",
+        "topic": "sensor_info",
+        "qos": "1",
+        "retain": "false",
+        "broker": "172d4a97.2e792d",
+        "x": 370,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "429f3bff.85c5cc",
+        "type": "inject",
+        "z": "3b6c61756b941977",
+        "name": "inject sensor info",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"sensors\":[{\"id\":\"sp1\",\"description\":\"Sensore1 di rilevamento corretto posizionamento 1\",\"model\":\"XXX\",\"um\":\"1 = posizione corretta; 0 = posizione scorretta\"},{\"id\":\"sp2\",\"description\":\"Sensore di rilevamento corretto posizionamento 2\",\"model\":\"XXX\",\"um\":\"1 = posizione corretta; 0 = posizione scorretta\"},{\"id\":\"sp3\",\"description\":\"Sensore di rilevamento corretto posizionamento 3\",\"model\":\"XXX\",\"um\":\"1 = posizione corretta; 0 = posizione scorretta\"},{\"id\":\"sp4\",\"description\":\"Sensore di rilevamento corretto posizionamento 4\",\"model\":\"XXX\",\"um\":\"1 = posizione corretta; 0 = posizione scorretta\"},{\"id\":\"sp5\",\"description\":\"Sensore di rilevamento corretto posizionamento 5\",\"model\":\"XXX\",\"um\":\"1 = posizione corretta; 0 = posizione scorretta\"}]}",
+        "payloadType": "json",
+        "x": 140,
+        "y": 280,
+        "wires": [
+            [
+                "dd631c82.a768"
+            ]
+        ]
+    },
+    {
+        "id": "aee9afd8.4bc948",
+        "type": "mqtt out",
+        "z": "3b6c61756b941977",
+        "name": "",
+        "topic": "sensor_data",
+        "qos": "1",
+        "retain": "false",
+        "broker": "ff621fe6.e56fc8",
+        "x": 390,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "b5630e8d.6c0b78",
+        "type": "inject",
+        "z": "3b6c61756b941977",
+        "name": "inject sensor position data",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[{\"data\":[{\"S1\":1,\"S2\":1,\"S3\":1,\"S4\":1,\"S5\":1}],\"token\":\"T0001\",\"timestamp\":\"20210125T20:47:51 \"}]",
+        "payloadType": "json",
+        "x": 170,
+        "y": 340,
+        "wires": [
+            [
+                "aee9afd8.4bc948"
+            ]
+        ]
+    },
+    {
+        "id": "33054789.1037d",
+        "type": "json",
+        "z": "3b6c61756b941977",
+        "name": "Read JSON with sensor data from Arduino",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 820,
+        "y": 340,
+        "wires": [
+            [
+                "fb0f3b61.0eaea"
+            ]
+        ]
+    },
+    {
+        "id": "fb0f3b61.0eaea",
+        "type": "function",
+        "z": "3b6c61756b941977",
+        "name": "verify sensors status",
+        "func": "\nvar temp1 = msg.payload[0].data[0];\nconsole.log(\"TEP1 = \" + JSON.stringify(temp1))\nvar temp2 = JSON.stringify(temp1);\nif(temp2.includes(0)){\n   msg.payload = '{“position”:”nok”}'\n}\nelse\n{msg.payload = '{“position”:”ok”}' }\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1120,
+        "y": 340,
+        "wires": [
+            [
+                "a58a760b.e9624"
+            ]
+        ]
+    },
+    {
+        "id": "7e728c19.174e8c",
+        "type": "function",
+        "z": "3b6c61756b941977",
+        "name": "create html",
+        "func": "\nlet html = `<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>${msg.payload[0].Modello} - ${ msg.payload[0].Data }</title>\n    <style>\n        body {\n            font-family: Arial, Helvetica, sans-serif;\n        }\n\n        .content-table {\n            border-collapse: collapse;\n            margin: 25px 0;\n            font-size: 0.9em;\n            min-width: 400px;\n            border-radius: 5px 5px 0 0;\n            overflow: hidden;\n            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);\n        }\n\n        .content-table thead tr {\n            background-color: #009879;\n            color: #ffffff;\n            text-align: left;\n            font-weight: bold;\n        }\n\n        .content-table th,\n        .content-table td {\n            padding: 12px 15px;\n        }\n\n        .content-table tbody tr {\n            border-bottom: 1px solid #dddddd;\n        }\n\n        .content-table tbody tr:nth-of-type(even) {\n            background-color: #f3f3f3;\n        }\n\n        .content-table tbody tr:last-of-type {\n            border-bottom: 2px solid #009879;\n        }\n\n        .content-table tbody tr.active-row {\n            font-weight: bold;\n            color: #009879;\n        }\n    </style>\n</head>\n\n<body>\n    <h1>Welding Quality data - ${ msg.payload[0].Data } - ${msg.payload[0].Modello}</h1>\n\n    <table class=\"content-table\" style=\"width:100%\">\n\n        <thead>\n            <tr>\n                <th>Cod. Risultato</th>\n                <th>Descrizione risultato</th>\n                <th>Peaks</th>\n                <th>Thickness</th>\n                <th>Att</th>\n                <th>Gain</th>\n                <th>CatNo</th>\n                <th>CenterPeacks</th>\n                <th>Result</th>\n                <th>SpotID</th>\n                <th>TestID</th>\n            </tr>\n        </thead>\n\n        <tbody>`\n\nlet rows = \"\"\n\nmsg.payload.forEach(el => {\n    rows += `\n<tr>\n    <td>${el[\"Cod. Risultato\"]}</td>\n    <td>${el[\"Descrizione risultato\"]}</td>\n    <td>${el.Peaks}</td>\n    <td>${el.Thickness}</td>\n    <td>${el.Att}</td>\n    <td>${el.Gain}</td>\n    <td>${el.CatNo}</td>\n    <td>${el.CenterPeacks}</td>\n    <td>${el.Result}</td>\n    <td>${el.SpotID}</td>\n    <td>${el.TestID}</td>\n</tr>` })\n\n\nhtml = html + rows + `</tbody>\n    </table>\n</body>\n</html>`\n\nmsg.payload = html\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1010,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b34dddc9.6e457",
+        "type": "mqtt out",
+        "z": "3b6c61756b941977",
+        "name": "start command",
+        "topic": "command",
+        "qos": "2",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "ad4879325e2c37cb",
+        "x": 300,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "a71f87d8.4e3a8",
+        "type": "inject",
+        "z": "3b6c61756b941977",
+        "name": "inject start",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"command\":\"start\"}",
+        "payloadType": "json",
+        "x": 120,
+        "y": 140,
+        "wires": [
+            [
+                "b34dddc9.6e457"
+            ]
+        ]
+    },
+    {
+        "id": "c2e715da.31b7a",
+        "type": "mqtt in",
+        "z": "3b6c61756b941977",
+        "name": "start quality",
+        "topic": "command",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "ad4879325e2c37cb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 430,
+        "y": 600,
+        "wires": [
+            [
+                "e8f6efbbf481c79f"
+            ]
+        ]
+    },
+    {
+        "id": "672d2f4d.affdc8",
+        "type": "mqtt in",
+        "z": "3b6c61756b941977",
+        "name": "start command",
+        "topic": "command",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "ad4879325e2c37cb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 550,
+        "y": 140,
+        "wires": [
+            [
+                "3c576328.c78674"
+            ]
+        ]
+    },
+    {
+        "id": "3c576328.c78674",
+        "type": "function",
+        "z": "3b6c61756b941977",
+        "name": "transform Sart from TAIP to cmd to Arduino",
+        "func": "var temp = msg.payload;\nif(temp.includes(\"start\")){\nmsg.payload = \"/read/sp1&sp2&sp3&sp4&sp5&token=T0001\"}\nelse\n{\n    msg.payload = \"WRONG\"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 140,
+        "wires": [
+            [
+                "be393d76.cc41c"
+            ]
+        ]
+    },
+    {
+        "id": "be393d76.cc41c",
+        "type": "mqtt out",
+        "z": "3b6c61756b941977",
+        "name": "start process",
+        "topic": "command_data",
+        "qos": "2",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "ad4879325e2c37cb",
+        "x": 1150,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1f7bbaa4.de0225",
+        "type": "function",
+        "z": "3b6c61756b941977",
+        "name": "",
+        "func": "var temp = msg.payload;\nvar json_obj = {}\n\nvar temp1 = JSON.parse(temp)\n\nvar sp1_value, sp2_value, sp3_value, sp4_value, sp5_value;\nif(temp1[0].data[0].S1==1)\nsp1_value = \"OK\";\nelse\nsp1_value =\"NOK\"\nif(temp1[0].data[0].S2==1)\nsp2_value = \"OK\" \nelse\nsp2_value =\"NOK\"\nif(temp1[0].data[0].S3==1)\nsp3_value = \"OK\" ;\nelse\nsp3_value = \"NOK\" ;\nif(temp1[0].data[0].S4==1)\nsp4_value = \"OK\";\nelse\nsp4_value = \"NOK\";\nif(temp1[0].data[0].S5==1)\nsp5_value =\"OK\";\nelse\nsp5_value =\"NOK\";\n\nvar obj = {\n    'SP1': sp1_value,\n    'SP2': sp2_value,\n    'SP3': sp3_value,\n    'SP4': sp4_value,\n    'SP5': sp5_value\n}\n\njson_obj.data = obj;\njson_obj.timestamp = Date.now();\n\nvar temp2 = JSON.stringify(json_obj);\nmsg.payload = temp2;\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1500,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1ff40e53.df171a",
+        "type": "kafka-producer",
+        "z": "3b6c61756b941977",
+        "d": true,
+        "name": "Pub sensor_data",
+        "broker": "9f02d648.2ec128",
+        "topic": "sensors_position_result",
+        "requireAcks": 1,
+        "ackTimeoutMs": 100,
+        "attributes": "1",
+        "x": 1360,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "50205285.b3b6dc",
+        "type": "mqtt in",
+        "z": "3b6c61756b941977",
+        "d": true,
+        "name": "",
+        "topic": "sensor_info",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "ad4879325e2c37cb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 1510,
+        "y": 1140,
+        "wires": [
+            [
+                "37bca235.647356"
+            ]
+        ]
+    },
+    {
+        "id": "37bca235.647356",
+        "type": "function",
+        "z": "3b6c61756b941977",
+        "name": "",
+        "func": "var temp = msg.payload;\nvar json_obj = {\"position\":\"ok\"}\nmsg.payload = json_obj;\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1280,
+        "y": 1060,
+        "wires": [
+            [
+                "1ff40e53.df171a",
+                "e251bcfe.601138"
+            ]
+        ]
+    },
+    {
+        "id": "e251bcfe.601138",
+        "type": "debug",
+        "z": "3b6c61756b941977",
+        "name": "test1111",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1520,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "925b8c6e86d9dcf1",
+        "type": "comment",
+        "z": "3b6c61756b941977",
+        "name": "TAIP send start",
+        "info": "",
+        "x": 120,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "702760ea8b47fce8",
+        "type": "comment",
+        "z": "3b6c61756b941977",
+        "name": "RPLY transform it to read command for Arduino",
+        "info": "",
+        "x": 590,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "fb5788dff7d6bb39",
+        "type": "comment",
+        "z": "3b6c61756b941977",
+        "name": "Arduino send sensor position data",
+        "info": "",
+        "x": 170,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "5a396188c5f00d22",
+        "type": "comment",
+        "z": "3b6c61756b941977",
+        "name": "RPLY send outcome sensor position data to ENG",
+        "info": "",
+        "x": 680,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "983e279f76e9d75e",
+        "type": "mqtt out",
+        "z": "3b6c61756b941977",
+        "name": "start quality",
+        "topic": "command",
+        "qos": "2",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "ad4879325e2c37cb",
+        "x": 350,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "6fb57432bbec32ff",
+        "type": "inject",
+        "z": "3b6c61756b941977",
+        "name": "inject start quality",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"command\":\"quality\"}",
+        "payloadType": "json",
+        "x": 140,
+        "y": 500,
+        "wires": [
+            [
+                "983e279f76e9d75e"
+            ]
+        ]
+    },
+    {
+        "id": "4f1350d49e5a7582",
+        "type": "comment",
+        "z": "3b6c61756b941977",
+        "name": "TAIP send start quality",
+        "info": "",
+        "x": 140,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "d9a6c64e12d8a7ab",
+        "type": "comment",
+        "z": "3b6c61756b941977",
+        "name": "RPLY send report to ENG",
+        "info": "",
+        "x": 790,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "e8f6efbbf481c79f",
+        "type": "function",
+        "z": "3b6c61756b941977",
+        "name": "trasform quality message to cmd",
+        "func": "var temp = msg.payload;\nif(temp.includes(\"quality\")){\nmsg.payload = \"quality\"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 600,
+        "wires": [
+            [
+                "373a1cf4.6cf3dc"
+            ]
+        ]
+    },
+    {
+        "id": "60c430e1f005b517",
+        "type": "comment",
+        "z": "3b6c61756b941977",
+        "name": "ENG processing report to show on HOLOLENS",
+        "info": "",
+        "x": 1590,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "c68648d86e7abae5",
+        "type": "inject",
+        "z": "90189482ed260836",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 320,
+        "y": 240,
+        "wires": [
+            [
+                "67bd92bfbb4da764"
+            ]
+        ]
+    },
+    {
+        "id": "67bd92bfbb4da764",
+        "type": "file in",
+        "z": "90189482ed260836",
+        "name": "",
+        "filename": "/home/ubuntu/icosaf/test1.csv",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 550,
+        "y": 240,
+        "wires": [
+            [
+                "4ee0cb6bbf776e25"
+            ]
+        ]
+    },
+    {
+        "id": "4ee0cb6bbf776e25",
+        "type": "csv",
+        "z": "90189482ed260836",
+        "name": "",
+        "sep": "\\t",
+        "hdrin": true,
+        "hdrout": "none",
+        "multi": "mult",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 890,
+        "y": 240,
+        "wires": [
+            [
+                "1e6ec033f3a7b604",
+                "91ee9537beca4ffc"
+            ]
+        ]
+    },
+    {
+        "id": "91ee9537beca4ffc",
+        "type": "ui_template",
+        "z": "90189482ed260836",
+        "group": "8b5cde76.edd58",
+        "name": "template table",
+        "order": 1,
+        "width": "26",
+        "height": "23",
+        "format": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>TEST</title>\n    <style>\n        body {\n            font-family: Arial, Helvetica, sans-serif;\n        }\n\n        .content-table {\n            border-collapse: collapse;\n            margin: 25px 0;\n            font-size: 0.9em;\n            min-width: 400px;\n            border-radius: 5px 5px 0 0;\n            overflow: hidden;\n            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);\n        }\n\n        .content-table thead tr {\n            background-color: #009879;\n            color: #ffffff;\n            text-align: left;\n            font-weight: bold;\n        }\n\n        .content-table th,\n        .content-table td {\n            padding: 12px 15px;\n        }\n\n        .content-table tbody tr {\n            border-bottom: 1px solid #dddddd;\n        }\n\n        .content-table tbody tr:nth-of-type(even) {\n            background-color: #f3f3f3;\n        }\n\n        .content-table tbody tr:last-of-type {\n            border-bottom: 2px solid #009879;\n        }\n\n        .content-table tbody tr.active-row {\n            font-weight: bold;\n            color: #009879;\n        }\n    </style>\n</head>\n\n<body>\n    <h1>Welding Quality data</h1>\n\n    <table class=\"content-table\" style=\"width:100%\">\n\n        <thead>\n            <tr>\n                <th>Data</th>\n                <th>Modello</th>\n                <th>Numero punto/th>\n                <th>Descrizione risultato</th>\n                <th>Categoria</th>\n                <th>Thickness</th>\n                <th>Att</th>\n                <th>Echi</th>\n                <th>Gain</th>\n                <th>Sonda</th>\n                <th>File UPR</th>\n                <!--th>SpotID</th>\n                <th>TestID</th-->\n            </tr>\n        </thead>\n\n\n        <tbody>\n            <tr ng-repeat=\"row in msg.payload\">\n                <th>{{row.Data}}</td>\n                <td>{{row.Modello}}</td>\n                <td>{{row[\"Punto\"]}}</td>\n                <td>{{row[\"Risultato\"]}}</td>\n                <td>{{row.Categoria}}</td>\n                <td>{{row.Spessore}}</td>\n                <td>{{row.Echi}}</td>\n                <td>{{row.Calo}}</td>\n                <td>{{row.Guadagno}}</td>\n                <td>{{row.Sonda}}</td>\n                <td>{{row[\"File UPR\"]}}</td>\n                <td>{{row[\"File SWD\"]}}</td>\n                \n            </tr>\n        </tbody>\n\n\n    </table>\n\n\n</body>\n\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1080,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1e6ec033f3a7b604",
+        "type": "debug",
+        "z": "90189482ed260836",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 180,
+        "wires": []
+    }
+]
